@@ -17,7 +17,7 @@ function checkHandler(){
     output.innerText+=checkNum(userGuess[i],randomNumber[i])   
    } 
    if (count==3){
-    output.style.backgroundColor="green"
+    output.style.backgroundColor ="green"
     output.innerHTML+="<br> Yay this is the correct number <br>"
    }
     else {
